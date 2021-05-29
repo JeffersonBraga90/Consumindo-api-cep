@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(45, 119, 253, 1) 100%);
+}
+
+.max-container {
+    width: calc(100% - 300px);
+}
+
+.form__container {
+    margin: 250px auto 0;
+}
+
+.form__container h1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form__container input {
+    width: 100%;
+    border: none;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 0 20px;
+    outline: none;
+}
+
+.form__container input::placeholder {
+    font-size: 20px;
+    color: #999;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: rgb(34, 193, 195);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+}
+
+.btn:hover {
+    background: rgba(45, 119, 253, 1);
+}
+
+ul {
+    width: 500px;
+    height: 200px;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, .3);
+    padding: 20px 0 0 20px;
+    transition: .4s;
+    /* padding-top: 0px; */
+}
+
+li {
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+}
